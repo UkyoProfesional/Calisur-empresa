@@ -9,22 +9,22 @@
         @vite('resources/js/app.js')
     </head class="p-5 bg-white border-b shadow" >
     <body>
-<header class="p-5 bg-white border-b shadow">
+<header class="p-5 bg-[#ebe4e5] border-b shadow">
         <div  class="container flex items-center justify-between mx-auto">
             <a href="/">
             <img  src="/img/logo.png" alt="Logo de la empresa" class="m-4 h-20 w-35 ">
             </a>
         <nav class="flex items-center gap-11">
-            <a href="/estudios" class="text-sm font-bold text-gray-600 uppercase hover:text-gray-400">Estudios</a>
-            <a href="/servicios" class="text-sm font-bold text-gray-600 uppercase hover:text-gray-400">Serivicios</a>
-            <a href="/productos" class="text-sm font-bold text-gray-600 uppercase hover:text-gray-400">Productos</a>
-            <a href="/contacto" class="text-sm font-bold text-gray-600 uppercase hover:text-gray-400">Nosotros</a>      
-            <a href="/contacto"class="text-sm font-bold text-gray-600 uppercase hover:text-gray-400">Contacto</a>
+            <a href="/estudios" class="text-sm font-bold text-[#360A13] uppercase hover:text-[#793341ee]">Estudios</a>
+            <a href="/servicios" class="text-sm font-bold text-[#360A13] uppercase hover:text-[#793341ee]">Serivicios</a>
+            <a href="/productos" class="text-sm font-bold text-[#360A13] uppercase hover:text-[#793341ee]">Productos</a>
+            <a href="/contacto" class="text-sm font-bold text-[#360A13] uppercase hover:text-[#793341ee]">Nosotros</a>      
+            <a href="/contacto"class="text-sm font-bold text-[#360A13] uppercase hover:text-[#793341ee]">Contacto</a>
 
         </nav>
         <nav class="flex items-center gap-3">
-            <a href="/login"class="text-sm font-bold text-gray-600 uppercase hover:text-gray-400">Login</a>  
-            <a href="/register"class="text-sm font-bold text-gray-600 uppercase hover:text-gray-400">Crear Cuenta</a>  
+            <a href="/login"class="text-sm font-bold text-[#360A13] uppercase hover:text-[#793341ee]">Login</a>  
+            <a href="/register"class="text-sm font-bold text-[#360A13] uppercase hover:text-[#793341ee]">Crear Cuenta</a>  
 
         </nav>
     </div>
@@ -32,8 +32,8 @@
     <main class="container mx-auto mt-10">
         @yield('contenido')
     </main>
-    <footer class="p-5 font-bold text-center text-gray-500 uppercase">
-        DevStagram - Todos los derechos reservados 
+    <footer class="p-5 font-bold text-center text-[#360A13] uppercase">
+        Calisur - Todos los derechos reservados 
         {{now()->year}}
     </footer>
        
