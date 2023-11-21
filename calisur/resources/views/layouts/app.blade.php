@@ -11,19 +11,20 @@
     <body>
 <header class="p-5 bg-white border-b shadow">
         <div  class="container flex items-center justify-between mx-auto">
-            
-            <img src="/img/logo.png" alt="Logo de la empresa" class="m-4 h-20 w-35 ">
-        <nav class="flex items-center gap-8">
-            <a href="/estudios" class="text-sm font-bold text-gray-600 uppercase">Estudios</a>
-            <a href="/servicios" class="text-sm font-bold text-gray-600 uppercase">Serivicios</a>
-            <a href="/productos" class="text-sm font-bold text-gray-600 uppercase">Productos</a>
-            <a href="/contacto" class="text-sm font-bold text-gray-600 uppercase">Nosotros</a>      
-            <a href="/contacto"class="text-sm font-bold text-gray-600 uppercase">Contacto</a>
+            <a href="/">
+            <img  src="/img/logo.png" alt="Logo de la empresa" class="m-4 h-20 w-35 ">
+            </a>
+        <nav class="flex items-center gap-11">
+            <a href="/estudios" class="text-sm font-bold text-gray-600 uppercase hover:text-gray-400">Estudios</a>
+            <a href="/servicios" class="text-sm font-bold text-gray-600 uppercase hover:text-gray-400">Serivicios</a>
+            <a href="/productos" class="text-sm font-bold text-gray-600 uppercase hover:text-gray-400">Productos</a>
+            <a href="/contacto" class="text-sm font-bold text-gray-600 uppercase hover:text-gray-400">Nosotros</a>      
+            <a href="/contacto"class="text-sm font-bold text-gray-600 uppercase hover:text-gray-400">Contacto</a>
 
         </nav>
         <nav class="flex items-center gap-3">
-            <a href="/login"class="text-sm font-bold text-gray-600 uppercase">Login</a>  
-            <a href="/register"class="text-sm font-bold text-gray-600 uppercase">Crear Cuenta</a>  
+            <a href="/login"class="text-sm font-bold text-gray-600 uppercase hover:text-gray-400">Login</a>  
+            <a href="/register"class="text-sm font-bold text-gray-600 uppercase hover:text-gray-400">Crear Cuenta</a>  
 
         </nav>
     </div>

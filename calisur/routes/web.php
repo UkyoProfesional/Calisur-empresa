@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\EstudiosController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,3 +17,4 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('principal');
 });
+Route::get('/estudios',[EstudiosController::class,'index'])->name('estudios.index');
