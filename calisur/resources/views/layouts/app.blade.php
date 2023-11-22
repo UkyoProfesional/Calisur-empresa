@@ -7,12 +7,13 @@
         <title>Calisur - @yield('titulo')</title>
         @vite('resources/css/app.css')
         @vite('resources/js/app.js')
+        <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     </head class="p-5 bg-white border-b shadow" >
     <body>
 <header class="p-5 bg-[#ebe4e5] border-b shadow">
         <div  class="container flex items-center justify-between mx-auto">
             <a href="/">
-            <img  src="/img/logo.png" alt="Logo de la empresa" class="m-4 h-20 w-35 ">
+            <img  src="/img/logo.png" alt="Logo de la empresa" class="h-20 m-4 w-35 ">
             </a>
         <nav class="flex items-center gap-11">
             <a href="/estudios" class="text-sm font-bold text-[#360A13] uppercase hover:text-[#793341ee]">Estudios</a>
@@ -36,6 +37,6 @@
         Calisur - Todos los derechos reservados 
         {{now()->year}}
     </footer>
-       
+    <script src="{{ asset('js/app.js') }}"></script>
     </body>
 </html>
