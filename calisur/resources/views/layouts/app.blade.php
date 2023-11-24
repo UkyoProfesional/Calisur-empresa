@@ -17,7 +17,7 @@
             </a>
         <nav class="flex items-center gap-11">
             <a href="/estudios" class="text-sm font-bold text-[#360A13] uppercase hover:text-[#793341ee]">Estudios</a>
-            <a href="/servicios" class="text-sm font-bold text-[#360A13] uppercase hover:text-[#793341ee]">Serivicios</a>
+            <a href="/servicios" class="text-sm font-bold text-[#360A13] uppercase hover:text-[#793341ee]">Servicios</a>
             <a href="/productos" class="text-sm font-bold text-[#360A13] uppercase hover:text-[#793341ee]">Productos</a>   
             <a href="/contacto"class="text-sm font-bold text-[#360A13] uppercase hover:text-[#793341ee]">Contacto</a>
 
