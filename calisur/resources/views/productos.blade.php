@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('titulo')
-Calisur
+Productos
 @endsection
 
 @section('contenido')
