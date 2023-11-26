@@ -8,7 +8,7 @@ Contacto
 
 <div class="p-5 md:flex md:justify-center md:gap-10 md:items-center">
     <div class="p-6 bg-white rounded-lg shadow-xl md:w-4/12">
-        <form>
+        <form action="" class="contacto-form" id="form">
             <div class="mb-5">
                 <label for="name_contacto" class="block mb-2 font-bold text-[#2B2E33] uppercase">
                     Nombre
@@ -19,7 +19,7 @@ Contacto
                 type="text"
                 placeholder="Nombre"
                 class="w-full p-3 border rounded-lg "
-                value="{{old('name_contacto')}}"
+                value=""
                 />
             </div>
             
@@ -33,7 +33,7 @@ Contacto
                 type="email_contacto"
                 placeholder="Correo electronico"
                 class="w-full p-3 border rounded-lg "
-                value="{{old('email_contacto')}}"/>
+                value=""/>
                 
             </div>
             <div class="mb-5">
@@ -46,12 +46,12 @@ Contacto
                 type="text"
                 placeholder="Asunto"
                 class="w-full p-3 border rounded-lg"
-                value="{{old('asunto')}}"
+                value=""
                 />
             </div>
 
             <div class="mb-5">
-                <label for="servicio" class="block mb-2 font-bold text-[#2B2E33] uppercase">
+                <label for="servicio_solicitud" class="block mb-2 font-bold text-[#2B2E33] uppercase">
                     Servicio que necesite
                 </label>
                 <textarea 
@@ -62,6 +62,7 @@ Contacto
             </div>
 
             <input type="submit"
+            id="button"
             value="Enviar"
             class="w-full p-3 font-bold text-[#2B1E25] uppercase transition-colors rounded-lg cursor-pointer bg-[#FAF105] hover:bg-[#DBD404] border-2 border-[#2B1E25]">
         </form>
@@ -77,4 +78,11 @@ Contacto
     </div>
        
 </div>
+
+<script type="text/javascript"
+src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+<script type="text/javascript">
+emailjs.init('ba7mM8eAAIeWkRT-K')
+</script>
 @endsection

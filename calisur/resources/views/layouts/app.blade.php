@@ -8,7 +8,8 @@
     <title>Calisur - @yield('titulo')</title>
     @vite('resources/css/app.css')
     @vite('resources/js/app.js')
-    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+    @vite('resources/js/contacto.js')
+
 </head class="p-5 bg-white border-b shadow">
 
 <body>
@@ -71,8 +72,7 @@
         Calisur - Todos los derechos reservados
         {{ now()->year }}
     </footer>
-    <script src="{{ asset('js/app.js') }}"></script>
-
+    
 </body>
 
 </html>
