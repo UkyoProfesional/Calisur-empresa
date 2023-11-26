@@ -15,7 +15,7 @@ Registrate en Calisur
         <form action="{{route('register')}}" method="POST" novalidate>
             @csrf
             <div class="mb-5">
-                <label for="name" class="block mb-2 font-bold text-gray-500 uppercase">
+                <label for="name" class="block mb-2 font-bold text-[#2B2E33] uppercase">
                     Nombre
                 </label>
                 <input 
@@ -34,7 +34,7 @@ Registrate en Calisur
             </div>
         
             <div class="mb-5">
-                <label for="email" class="block mb-2 font-bold text-gray-500 uppercase">
+                <label for="email" class="block mb-2 font-bold text-[#2B2E33] uppercase">
                     Email
                 </label>
                 <input 
@@ -52,7 +52,7 @@ Registrate en Calisur
             </div>
 
             <div class="mb-5">
-                <label for="password" class="block mb-2 font-bold text-gray-500 uppercase">
+                <label for="password" class="block mb-2 font-bold text-[#2B2E33] uppercase">
                     Contraseña
                 </label>
                 <input 
@@ -68,7 +68,7 @@ Registrate en Calisur
              @enderror
             </div>
             <div class="mb-5">
-                <label for="password_confirmation" class="block mb-2 font-bold text-gray-500 uppercase">
+                <label for="password_confirmation" class="block mb-2 font-bold text-[#2B2E33] uppercase">
                     Repetir contraseña
                 </label>
                 <input 
@@ -80,7 +80,7 @@ Registrate en Calisur
             </div>
             <input type="submit"
             value="Crear cuenta"
-            class="w-full p-3 font-bold text-white uppercase transition-colors rounded-lg cursor-pointer bg-sky-600 hover:bg-sky-700">
+            class="w-full p-3 font-bold text-[#2B1E25] uppercase transition-colors rounded-lg cursor-pointer bg-[#FAF105] hover:bg-[#DBD404] border-2 border-[#2B1E25]">
         </form>
     </div> 
 </div>

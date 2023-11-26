@@ -21,7 +21,7 @@ Inicia sesión en Calisur
             @endif
 
             <div class="mb-5">
-                <label for="email" class="block mb-2 font-bold text-gray-500 uppercase">
+                <label for="email" class="block mb-2 font-bold text-[#2B2E33] uppercase">
                     Email
                 </label>
                 <input 
@@ -39,7 +39,7 @@ Inicia sesión en Calisur
             </div>
 
             <div class="mb-5">
-                <label for="password" class="block mb-2 font-bold text-gray-500 uppercase">
+                <label for="password" class="block mb-2 font-bold text-[#2B2E33] uppercase">
                     Contraseña
                 </label>
                 <input 
@@ -55,12 +55,12 @@ Inicia sesión en Calisur
              @enderror
             </div>
             <div class="mb-5">
-                <input type="checkbox" name="remember"/> <label class="text-sm text-gray-500">Mantener mi sesion abierta</label>
+                <input type="checkbox" name="remember"/> <label class="text-sm text-[#2B2E33]">Mantener mi sesion abierta</label>
             </div>
 
             <input type="submit"
             value="Iniciar sesion"
-            class="w-full p-3 font-bold text-white uppercase transition-colors rounded-lg cursor-pointer bg-sky-600 hover:bg-sky-700">
+            class="w-full p-3 font-bold text-[#2B1E25] uppercase transition-colors rounded-lg cursor-pointer bg-[#FAF105] hover:bg-[#DBD404] border-2 border-[#2B1E25]">
         </form>
     </div> 
 </div>
