@@ -5,8 +5,9 @@ Productos
 @endsection
 
 @section('contenido')
-<h1 class=" text-center mb-4 text-4xl font-bold text-[#360A13] pb-10">PRODUCTOS</h1>
+
 <div class="container py-8 mx-auto">
+    <h1 class=" text-center mb-4 text-4xl font-bold text-[#360A13] pb-10">PRODUCTOS</h1>
     <!-- Menú principal -->
     <div class="text-center">
         <a href="#" class="inline-block text-[#360A13] font-bold  px-4 py-2 mx-2 border border-gray-500 rounded-lg hover:text-[#793341ee]" onclick="showContent('section1')">Equipos Contra Incendios</a>

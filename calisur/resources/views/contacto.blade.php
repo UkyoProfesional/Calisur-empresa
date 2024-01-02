@@ -5,7 +5,7 @@ Contacto
 @endsection
 
 @section('contenido')
-<h1 class=" text-center mb-4 text-4xl font-bold text-[#360A13] pb-10">CONTACTO</h1>
+<h1 class=" text-center mb-4 text-4xl font-bold text-[#360A13] ">CONTACTO</h1>
 <div class="p-5 md:flex md:justify-center md:gap-10 md:items-center">
     <div class="p-6 bg-white rounded-lg shadow-xl md:w-4/12">
         <form action="" class="contacto-form" id="form">
