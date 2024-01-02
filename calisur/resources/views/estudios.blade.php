@@ -7,9 +7,10 @@ Estudios
 
 @section('contenido')
 <div class="container py-8 mx-auto">
+  <h1 class=" text-center mb-4 text-4xl font-bold text-[#360A13] pb-10">ESTUDIOS</h1>
     <div class="flex flex-wrap items-center">
         <div class="w-full px-5 mb-12 md:w-1/2 md:mb-2">
-            <h2 class="mb-4 text-4xl font-bold text-[#360A13]">Estudios</h2>
+            <h2 class="mb-4 text-4xl font-bold text-[#360A13]">Estudios que ofrece nuestra empresa</h2>
             <p class="text-[#360A13] text-justify">CALISUR cuenta con capacitadores con años de experiencia en temas de Seguridad e Higiene Industrial, Ambiental y Calidad autorizados y registrados como agentes capacitadores externos ante la STPS (Secretaria de Trabajo y Previsión Social) Certificados en diferentes normas para brindarle un servicio de calidad.</p>
         </div>
         <div class="w-16 px-4 md:w-1/2">

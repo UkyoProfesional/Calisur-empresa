@@ -5,6 +5,7 @@ Productos
 @endsection
 
 @section('contenido')
+<h1 class=" text-center mb-4 text-4xl font-bold text-[#360A13] pb-10">PRODUCTOS</h1>
 <div class="container py-8 mx-auto">
     <!-- Menú principal -->
     <div class="text-center">

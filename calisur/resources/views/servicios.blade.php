@@ -6,6 +6,7 @@ Servicios
 
 @section('contenido')
 <div class="container py-8 mx-auto">
+    <h1 class=" text-center mb-4 text-4xl font-bold text-[#360A13] pb-10">SERVICIOS</h1>
     <div class="flex flex-wrap items-center">
         <div class="w-full px-5 mb-12 md:w-1/2 md:mb-2">
         <h2 class="mb-4 text-4xl font-bold text-[#360A13]">Inspección, mantenimiento e instalación de sistemas de supresion de incendio</h2>
